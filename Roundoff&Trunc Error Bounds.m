@@ -151,8 +151,8 @@ fprintf("as b could be insignificant with respect to a*n for high values of a/n 
 fprintf("This has been considered in our bound for the Roundoff error for both methods of computing S1.\n");
 
 fprintf("\nConclusion:")
-fprintf("\nFor decreasing as much as possible the Trunctation error throughout the process, a larger value of k (and a) is better.\n"); % (k and a)
-fprintf("Whereas for decreasing the Roundoff error, a lower value of k (as well as a and b) is a better choice.\n"); % (a and b also affect)
+fprintf("\nFor decreasing as much as possible the Trunctation error throughout the process, a larger value of k is better.\n"); % (Also: 'a' larger)
+fprintf("Whereas for decreasing the Roundoff error, a lower value of k is a better choice.\n"); % (Also: 'a' and 'b' larger)
 fprintf("This comes from the fact that when k increases, the roundoff error also increases while the truncation error decreases. \n");
 
 fprintf("\nMoreover, we also have realised that the difference between the roundoff error of S1 to some value k, and the one of S1 to k + 1,\n");
